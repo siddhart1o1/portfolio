@@ -1,0 +1,143 @@
+.TOP {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10em;
+}
+
+.Heading {
+  font-size: 7rem;
+  font-weight: bold;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  display: Flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 90em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 4em;
+  background-image: linear-gradient(315deg, #ee0979 0%, #ff6a00 74%);
+  padding: 3em;
+}
+
+.desc {
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  color: white;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+.formInput {
+  background-color: #eff5fb;
+  padding: 0.5em;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  resize: none;
+  border-bottom: transparent solid 3px;
+}
+
+.formInput:focus {
+  padding: 0.5em;
+  border-bottom: hsl(199, 100%, 50%) solid 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 3em;
+}
+
+.Thanks {
+  padding: 2em;
+  font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------------------------- extras */
+.bn62 {
+  padding: 0.5em;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 70px;
+  align-items: center;
+  width: 7em;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.bn62:hover {
+  color: #1b2f31;
+  background-color: #00ffe1;
+  color: #000000;
+}
+@media (max-width: 513px) {
+  .bn62 {
+    font-size: 1rem;
+  }
+}
+
+/* phone  ----------------------------------------- */
+@media (max-width: 886px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .InfoContainer {
+    width: 100%;
+  }
+  .FormContainer {
+    width: 100%;
+  }
+  .formInput {
+    width: 100%;
+  }
+  .Heading{
+    font-size: 4rem;
+  }
+}

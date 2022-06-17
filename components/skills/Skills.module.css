@@ -1,0 +1,159 @@
+.TOP_container {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.TOPDevider {
+  max-width: 90%;
+  margin: 0 auto;
+  border-top: solid 1px rgb(1, 44, 99);
+}
+
+.TOPDevider2 {
+  width: 5em;
+  margin: 0 auto;
+  border-top: solid 4px rgb(0, 242, 255);
+  position: relative;
+  top: -2.5px;
+}
+
+.TOP {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  padding-top: 4em;
+  padding-bottom: 10em;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 90em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.CARD {
+  flex-direction: column;
+  max-width: 10em;
+  height: 10em;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.COL1 {
+  width: 50%;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border-radius: 1em;
+  padding-bottom: 2em;
+}
+
+.COL2 {
+  width: 50%;
+  background: linear-gradient(-135deg, #c6368a 0%, #673dc2 100%);
+  border-radius: 1em;
+  padding-bottom: 2em;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.mainHeading {
+  font-size: 7rem;
+  font-weight: bold;
+}
+.secondHeading {
+  font-size: 4rem;
+}
+
+.TopSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.description {
+  background-color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  width: 100%;
+  padding-bottom: 1em;
+  position: relative;
+  z-index: 0;
+  border-radius: 1em;
+}
+
+.SkillGraph {
+  padding-bottom: 2em;
+  padding-left: 1em;
+  width: 100%;
+  position: relative;
+  background: #1d3557;
+  border-radius: 1em;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.FrontEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TechHeading1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+.TechHeading2 {
+  font-size: 3rem;
+}
+
+.ROW1 {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+  justify-content: center;
+}
+
+.COLHeadings {
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondHeading {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+}

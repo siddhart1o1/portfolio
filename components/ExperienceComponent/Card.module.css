@@ -1,0 +1,43 @@
+.TOP {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.7em;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 0.5em;
+}
+
+.title {
+  font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 1.2rem;
+}
+
+.duration {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-weight: 768px) {
+  .title {
+    font-size: 0.3rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .desc {
+    font-size: 0.8rem;
+  }
+  .duration {
+    font-size: 0.8rem;
+  }
+}

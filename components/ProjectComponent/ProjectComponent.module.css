@@ -1,0 +1,30 @@
+.TOP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Heading{
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+
+.container{
+    max-width: 100em;
+}
+
+
+@media (max-width: 768px) {
+    .TOP{
+        width: 95%;
+    }
+    .Heading {
+        font-size: 4rem;
+    }
+}

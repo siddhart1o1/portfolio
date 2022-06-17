@@ -1,0 +1,158 @@
+.TOP {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Text {
+  color: rgb(255, 205, 205);
+  font-size: 1.3rem;
+  position: relative;
+  font-weight: bold;
+  top:1.5em;
+  left:0.5em;
+}
+
+.ALL{
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: FrontEnd;
+  animation-duration: 2s;
+  width:0%;
+
+}
+
+.FrontEnd {
+  background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: FrontEnd;
+  animation-duration: 2s;
+  transition:all ease-in 2s;
+  width: 70%;
+}
+
+.BackEnd {
+    background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
+
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: BackEnd;
+  transition:all ease-in 2s;
+  width: 90%;
+}
+
+.AI {
+  background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
+
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: AI;
+  transition:all ease-in 2s;
+      width: 50%;
+}
+
+.GeneralCodeing {
+  background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
+
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: GeneralCodeing;
+  transition:all ease-in 2s;
+  width: 80%;
+}
+.Cloud {
+  background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
+
+  height: 2.2em;
+  border-radius: 0.3em;
+  animation-name: Cloud;
+  transition:all ease-in 2s;
+  width: 70%;
+}
+
+
+
+
+@media (max-width: 768px){
+  .Text {
+    font-size: 1rem;
+  }
+  .AI{
+    height: 1.5rem;
+  }
+  .FrontEnd{
+    height: 1.5rem;
+  }
+  .BackEnd{
+    height: 1.5rem;
+  }
+  .GeneralCodeing{
+    height: 1.5rem;
+  }
+  .Cloud{
+    height: 1.5rem;
+  }
+
+}
+
+/* @keyframes FrontEnd {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+
+@keyframes BackEnd {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes AI {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes GeneralCodeing {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes Cloud {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 70%;
+  }
+} */

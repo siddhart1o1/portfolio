@@ -1,0 +1,306 @@
+.SVG {
+  background-color: #ffffff;
+  position: relative;
+  max-width: 1000em;
+  top: -30em;
+  padding-bottom: 30em;
+  transform: skew(0, -7.76deg) translateY(calc(-250em / -12));
+  margin: 0 auto;
+}
+
+.TOPPEST {
+  width: 100%;
+  background-color: #ffffff;
+}
+.topProject {
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.3;
+  padding-bottom: 2em;
+}
+
+.heading {
+  font-size: 7rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: #ffffff;
+}
+.heading1 {
+  font-size: 3rem;
+  max-width: 20ch;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.TOP {
+  top: -15em;
+  position: relative;
+  width: 90%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 90em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
+.Row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Project1 {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.Project_image {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 10px,
+    rgba(14, 30, 37, 0.32) 12px 2px 16px 0px;
+  transition: all 0.3s ease-in-out;
+  border: #ffffff solid 2px;
+}
+
+.Project_1_Content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
+  background-color: #ffffff;
+  transition: 0.5s;
+  left: -100%;
+  border: #1d3557 solid 2px;
+}
+
+.Project1:hover .Project_1_Content {
+  left: 0%;
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .Project1:hover {
+  transform: scale(1.05);
+} */
+
+.Row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Row2_1st {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 34.8%;
+}
+
+.Row2_2nd {
+  width: 70%;
+}
+
+.Project3 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+}
+/* 
+.Project3:hover {
+  transform: scale(1.05);
+} */
+.Project3:hover .Project_1_Content {
+  left: 0%;
+}
+
+.Project5 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+/* .Project5:hover {
+  transform: scale(1);
+} */
+
+.Project5:hover .Project_1_Content {
+  left: 0%;
+}
+
+.content_Heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.content_para {
+  font-size: 1.1rem;
+  color: #1d3557;
+}
+
+.content_buttons {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #1d3557;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #1d3557;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.content_buttons:hover {
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+@media (max-width: 1073px) {
+  .Project1 {
+    width: 100%;
+    padding: 1em;
+  }
+  .Project3 {
+    width: 100%;
+    padding: 1em;
+  }
+  .Project5 {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .Row2_1st {
+    width: 100%;
+  }
+  .Row2_2nd {
+    width: 100%;
+  }
+  .Row1 {
+    flex-direction: column;
+  }
+  .Row2 {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+  }
+  .topProject {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+  }
+}
+/* dddddddddddddddddddddddddddddddddddd */
+
+
+@media(max-width:607px){
+  .content_para{
+    display: none;
+  }
+}
+
+/* 222222222222222222222222222222222222222222 */
+@media (max-width: 513px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+    gap: 0px;
+  }
+  .Row1 {
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+  }
+  .Row2 {
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+  }
+  .Row2_1st {
+    width: 100%;
+    padding: 0px;
+    gap: 0px;
+  }
+  .Row2_2nd {
+    width: 100%;
+    padding: 0px;
+    gap: 0px;
+  }
+  .Project1 {
+    width: 100%;
+    padding: 0px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      to right,
+      rgb(0, 128, 255),
+      rgb(0, 255, 221)
+    );
+  }
+  .Project3 {
+    width: 100%;
+    padding: 0px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      to right,
+      rgb(0, 128, 255),
+      rgb(0, 255, 221)
+    );
+  }
+  .Project5 {
+    width: 100%;
+    padding: 0px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      to right,
+      rgb(0, 128, 255),
+      rgb(0, 255, 221)
+    );
+  }
+  .Project_image {
+    border-radius: 0px;
+  }
+
+
+}

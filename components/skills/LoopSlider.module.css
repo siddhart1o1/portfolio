@@ -1,0 +1,31 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1em;
+  margin-top: 3em;
+}
+
+.container div {
+  height: 10em;
+  min-width: 20em;
+  animation: slide 15s linear infinite;
+  border-radius: 2em;
+}
+
+.CARD {
+  background-color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100em, 0, 0); /* The image width */
+  }
+}

@@ -1,0 +1,32 @@
+.bn62 {
+  padding: 1em;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50px;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  word-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.buttonDIV {
+  padding-top: 2em;
+}
+
+.bn62:hover {
+  color: #1b2f31;
+  background-color: #00ffe1;
+  color: #000000;
+}
+
+@media (max-width: 513px) {
+  .bn62 {
+    font-size: 1rem;
+    
+  }
+}

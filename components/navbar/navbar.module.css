@@ -1,0 +1,184 @@
+.TOP {
+  color: #000000;
+  max-width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+
+  z-index: 9;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.navLinks {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.openedNavbar {
+  transform-origin: left;
+  color: black;
+  transform: scaleX(1);
+  /* From https://css.glass */
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(0.2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+}
+
+.logo {
+  width: 25%;
+  cursor: default;
+  font-weight: 600;
+  display: flex;
+  justify-content: left;
+}
+
+.socialLinks {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.Siddharth {
+  font-size: 2.4rem;
+}
+
+/* .Tiwari {
+  font-size: 1.2rem;
+  margin-left: 2.3em;
+} */
+
+.Links {
+  text-decoration: none;
+  font-size: 0.99rem;
+  font-weight: 500;
+  padding: 1em;
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.Links:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-shadow: #000000 2px 2px 4px;
+}
+
+.LinkedInIcon {
+  font-size: 1.5rem;
+  padding: 0.3em;
+}
+
+.GithubIcon {
+  font-size: 1.5rem;
+  padding: 0.3em;
+}
+
+.active {
+  transition: all 0.3s;
+  color: #00b8a8;
+  pointer-events: none;
+}
+
+.Hamburger {
+  display: none;
+}
+
+/* @media (max-width: 982px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .socialLinks {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLinks {
+    margin-top: 2em;
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Tiwari {
+    font-size: 1.2rem;
+    align-items: center;
+    margin-left: 1em;
+  }
+} */
+
+@media (max-width: 982px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: row;
+  }
+  .Tiwari {
+    font-size: 1.3rem;
+    margin-left: 0em;
+  }
+  .logo {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+  }
+  .Hamburger {
+    display: block;
+    justify-content: center;
+  }
+
+  .navLinks,
+  .socialLinks {
+    display: none;
+    backdrop-filter: blur(0.8px);
+  }
+  .Openhamburger {
+    z-index: 9;
+  }
+  .openedNavbar {
+    display: flex;
+  }
+}

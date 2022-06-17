@@ -1,0 +1,42 @@
+.Footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  margin-top: 3em;
+  width:90%
+}
+
+.TOPDevider {
+  max-width: 70em;
+  margin: 0 auto;
+  border-top: solid 1px rgb(0, 0, 0);
+}
+
+
+.TOP {
+
+  padding-top: 3em;
+  max-width: 70em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3em;
+
+}
+
+.Social {
+  display: flex;
+  gap: 1em;
+}
+
+
+@media (max-width: 768px) {
+  .TOP {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+}
+  

@@ -1,0 +1,17 @@
+.TOP {
+  width: 100%;
+  display: flex;
+  padding: 1em;
+}
+
+.COL1 {
+  font-size: 1.2rem;
+  margin-left: 1em;
+  font-weight: bold;
+    gap: 4.5em;
+}
+.COL2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 3em;
+}
