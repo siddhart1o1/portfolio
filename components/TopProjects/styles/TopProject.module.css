@@ -28,7 +28,7 @@
   background-color: #ffffff;
 }
 .heading1 {
-  font-size: 3rem;
+  font-size: 1.8rem;
   max-width: 20ch;
   width: 100%;
   background-color: #ffffff;
@@ -212,11 +212,13 @@
   }
 
   .heading1 {
-    font-size: 2rem;
+
+    font-size: 1.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 90%;
+    max-width: 80%;
   }
   .topProject {
     flex-direction: column;

@@ -1,8 +1,6 @@
-.TOP{
+.TOP {
   width: 90%;
   margin: 0 auto;
-
-
 }
 .hero {
   max-width: 90em;
@@ -21,7 +19,7 @@
   justify-content: space-around;
   flex-direction: column;
   position: relative;
-  z-index:2;
+  z-index: 2;
 }
 
 .HI {
@@ -32,16 +30,19 @@
   width: 16ch;
   font-weight: bold;
   position: relative;
-  z-index:2;
-  line-height: 1.25 ;
+  z-index: 2;
+  line-height: 1.25;
 }
 
-@media (max-width: 982px) {
-  .subHeading {
+@media (max-width: 1157px) {
+  .HI {
     font-size: 1.5rem;
-
+  }
+  .subHeading {
+    font-size: 5rem;
   }
 }
+
 @media (max-width: 982px) {
   .HI {
     font-size: 1.3rem;
@@ -52,8 +53,8 @@
     text-align: center;
     flex-direction: column;
     margin: 0 auto;
-    padding:0;
-    width:100%
+    padding: 0;
+    width: 100%;
   }
   .hero {
     text-align: center;
@@ -66,7 +67,7 @@
   background-clip: text;
   color: transparent; */
 
-    text-decoration: underline;
+  text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: rgb(7, 57, 70);
 

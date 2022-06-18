@@ -8,8 +8,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { motion } from "framer-motion";
 import Hamburger from "hamburger-react";
 
-
-
 const Hover = {
   scale: 1.3,
   transition: {
@@ -19,7 +17,7 @@ const Hover = {
 };
 
 function NavBar(props) {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
   const router = useRouter();
   function isActive(path) {
     if (router.pathname === path) {
@@ -31,7 +29,6 @@ function NavBar(props) {
     setOpen(!isOpen);
     console.log(isOpen);
   }
-
 
   return (
     <Fragment>
@@ -65,7 +62,9 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span className={isActive("/about")}>ABOUT</span>
+                <span onClick={openhamburger} className={isActive("/about")}>
+                  ABOUT
+                </span>
               </motion.div>
             </Link>
 
@@ -76,7 +75,7 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span className={isActive("/projects")}>PROJECTS</span>
+                <span onClick={openhamburger} className={isActive("/projects")}>PROJECTS</span>
               </motion.div>
             </Link>
 
@@ -87,7 +86,7 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span className={isActive("/experience")}>EXPERIENCE</span>
+                <span onClick={openhamburger} className={isActive("/experience")}>EXPERIENCE</span>
               </motion.div>
             </Link>
             <Link href="/contact">
@@ -97,7 +96,7 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span className={isActive("/contact")}>CONTACT</span>
+                <span onClick={openhamburger} className={isActive("/contact")}>CONTACT</span>
               </motion.div>
             </Link>
           </div>

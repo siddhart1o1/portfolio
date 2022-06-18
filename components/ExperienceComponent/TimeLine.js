@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import { Chrono } from "react-chrono";
-import { Margin } from "@mui/icons-material";
 import styles from './TimeLine.module.css'
 export default function TimeLine() {
   const items = [
@@ -34,10 +32,6 @@ export default function TimeLine() {
   return (
     <div>
       <div
-        items={items}
-        mode="VERTICAL"
-        hideControls={true}
-        useReadMore={false}
         className={styles.TOP}
       >
         {items.map((item) => (

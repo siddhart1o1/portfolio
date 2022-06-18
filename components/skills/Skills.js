@@ -14,7 +14,7 @@ export default function Skills() {
       <div className={styles.TOP}>
         <div className={styles.container}>
           <div className={styles.heading}>
-            <div className={styles.mainHeading}>SKILLS</div>
+            <div className={styles.mainHeading}>Skills</div>
             <div className={styles.secondHeading}> Stuff I know.</div>
           </div>
           <div className={styles.TopSection}>

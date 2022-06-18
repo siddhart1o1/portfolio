@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
   border-radius: 10px;
-  margin-bottom: 8em;
-  max-width: 100em;
+  margin-bottom: 5em;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 1em;
 }
 
 .Image {
@@ -21,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 2.5em;
-  width: 40%;
+  width: 50%;
 }
 
 .Title {
@@ -69,10 +71,10 @@
 }
 
 @media (max-width: 987px) {
-  .Title{
+  .Title {
     display: none;
   }
-  .Title_phone{
+  .Title_phone {
     display: block;
   }
   .Container {
