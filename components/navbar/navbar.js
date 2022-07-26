@@ -75,7 +75,9 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span onClick={openhamburger} className={isActive("/projects")}>PROJECTS</span>
+                <span onClick={openhamburger} className={isActive("/projects")}>
+                  PROJECTS
+                </span>
               </motion.div>
             </Link>
 
@@ -86,7 +88,12 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span onClick={openhamburger} className={isActive("/experience")}>EXPERIENCE</span>
+                <span
+                  onClick={openhamburger}
+                  className={isActive("/experience")}
+                >
+                  EXPERIENCE
+                </span>
               </motion.div>
             </Link>
             <Link href="/contact">
@@ -96,7 +103,9 @@ function NavBar(props) {
                 transition={{ stiffness: 60 }}
                 className={styles.Links}
               >
-                <span onClick={openhamburger} className={isActive("/contact")}>CONTACT</span>
+                <span onClick={openhamburger} className={isActive("/contact")}>
+                  CONTACT
+                </span>
               </motion.div>
             </Link>
           </div>
@@ -122,11 +131,8 @@ function NavBar(props) {
               <GitHubIcon />
             </motion.div>
           </div>
-          <div
-            onClick={openhamburger}
-            className={isOpen ? styles.Openhamburger : styles.Hamburger}
-          >
-            <Hamburger />
+          <div onClick={openhamburger} className={styles.Hamburger}>
+            <Hamburger toggled={isOpen} />
           </div>
         </nav>
       </div>

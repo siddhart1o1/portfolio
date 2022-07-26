@@ -12,12 +12,14 @@ export default function ProjectCard(props) {
           <img src={props.data.image} className={styles.RealImage} />
         </div>
         <div className={styles.Desc}>
-          <h1 className={styles.Title}>{props.data.name}</h1>
+          <div className={styles.titleContainer}>
+            <h1 className={styles.Title}>{props.data.name}</h1>
+          </div>
           <p className={styles.info}>{props.data.description}</p>
           <p className={styles.worked}>{props.data.worked}</p>
           <div className={styles.link}>
             <a className={styles.Visit} href={props.data.link}>
-              Visit{" "}
+              Visit
             </a>
             <GitHubIcon />
           </div>

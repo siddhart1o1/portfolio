@@ -32,27 +32,10 @@
 }
 
 .openedNavbar {
-  transform-origin: left;
-  color: black;
-  transform: scaleX(1);
-  /* From https://css.glass */
-  background: rgb(255, 255, 255);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgb(255, 255, 255);
-  flex-direction: column;
+  width: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100vh;
-  backdrop-filter: blur(0.2px);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  display: none;
 }
 
 .logo {
@@ -143,6 +126,7 @@
   }
 
   .Tiwari {
+
     font-size: 1.2rem;
     align-items: center;
     margin-left: 1em;
@@ -168,17 +152,32 @@
   .Hamburger {
     display: block;
     justify-content: center;
-  }
+    z-index: 9;
 
+  }
+  .Links{
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
   .navLinks,
   .socialLinks {
     display: none;
-    backdrop-filter: blur(0.8px);
   }
-  .Openhamburger {
-    z-index: 9;
-  }
+
   .openedNavbar {
+    transform-origin: left;
+    color: black;
+    /* From https://css.glass */
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
     display: flex;
   }
 }

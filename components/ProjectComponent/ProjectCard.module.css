@@ -5,17 +5,18 @@
   border-radius: 10px;
   margin-bottom: 5em;
   max-width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   padding: 1em;
 }
 
 .Image {
-  max-width: 45%;
+  max-width: 50%;
 }
 
 .RealImage {
+  
+  object-fit: cover;
   border-radius: 20px;
+
 }
 
 .Desc {
@@ -50,7 +51,6 @@
   padding-left: 2em;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  font-weight: bold;
 }
 .link {
   display: flex;

@@ -7,7 +7,7 @@ import { useAnimation } from "framer-motion";
 
 export default function MySkillBar() {
   const animation = useAnimation();
-  const { ref, inView } = useInView({threshold:0.2});
+  const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
   return (
     <motion.div ref={ref} className={styles.TOP}>
       <div className={styles.container}>
