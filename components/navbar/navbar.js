@@ -111,25 +111,37 @@ function NavBar(props) {
           </div>
 
           <div className={styles.socialLinks}>
-            <motion.div
-              className={styles.LinkedInIcon}
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ stiffness: 60 }}
-              whileHover={Hover}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/siddharth-tiwari-10baa1178/"
             >
-              <LinkedInIcon />
-            </motion.div>
+              <motion.div
+                className={styles.LinkedInIcon}
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ stiffness: 60 }}
+                whileHover={Hover}
+              >
+                <LinkedInIcon />
+              </motion.div>
+            </a>
 
-            <motion.div
-              className={styles.GithubIcon}
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ stiffness: 60 }}
-              whileHover={Hover}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/siddhart1o1"
             >
-              <GitHubIcon />
-            </motion.div>
+              <motion.div
+                className={styles.GithubIcon}
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ stiffness: 60 }}
+                whileHover={Hover}
+              >
+                <GitHubIcon />
+              </motion.div>
+            </a>
           </div>
           <div onClick={openhamburger} className={styles.Hamburger}>
             <Hamburger toggled={isOpen} />
