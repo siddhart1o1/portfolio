@@ -7,7 +7,7 @@ export default function TimeLine() {
       id: 1,
       title: "October 2021",
       card_Title: "I8labs",
-      card_Subtitle: "Python, Backend and AWS Developer.",
+      card_Subtitle: "Python, Backend and AWS Developer. (Internship)",
       card_DetailedText: `Working on backend with serverless architecture using AWS lambda and 
       working on CRF and github resume project. 
       Created CRUD API using AWS lambda and api gateway. 
@@ -21,7 +21,7 @@ export default function TimeLine() {
       id: 2,
       title: "July 2021",
       card_Title: "Unicorn Vision",
-      card_Subtitle: "Python and Tkinter Developer.",
+      card_Subtitle: "Python and Tkinter Developer. (Internship)",
       card_DetailedText: `Created front-end of application using Python's Tkinter from scratch for a car dashboard application,
       implemented authentication and authorization.
       implemented multithreading to run background process like capturing users video using open-cv and uploading it to AWS S3.
