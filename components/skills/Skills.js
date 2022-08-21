@@ -8,8 +8,7 @@ import TopTechGraph from "./TopTech";
 export default function Skills() {
   return (
     <div className={styles.TOP_container}>
-      <div className={styles.TOPDevider}></div>
-      <div className={styles.TOPDevider2}></div>
+
 
       <div className={styles.TOP}>
         <div className={styles.container}>

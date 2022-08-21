@@ -7,24 +7,25 @@ export default function TimeLine() {
       id: 1,
       title: "October 2021",
       card_Title: "I8labs",
-      card_Subtitle: "Python, Backend and AWS Devloper",
-      card_DetailedText: `Men of 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nesciunt doloribus. Laudantium sapiente maiores nobis cupiditate eum! Est accusantium labore, vitae debitis ipsa ducimus laudantium illo atque pariatur perferendis dicta!
-      the British Expeditionary Force (BEF) 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nesciunt doloribus. Laudantium sapiente maiores nobis cupiditate eum! Est accusantium labore, vitae debitis ipsa ducimus laudantium illo atque pariatur perferendis dicta!
-      wade out to..`,
+      card_Subtitle: "Python, Backend and AWS Developer.",
+      card_DetailedText: `Working on backend with serverless architecture using AWS lambda and 
+      working on CRF and github resume project. 
+      Created CRUD API using AWS lambda and api gateway. 
+      Used third party API to fetch data and process the data to apply business logic.
+      worked on crypto trading BOT for Auto-trading.
+      worked on admin and main website features such as crypto trading contest, crypto analysis using twitter and news data.
+      created flow to fetch data from github on github resume builder and process the data to display on frontend `,
       duration: "October 2021 - Present",
     },
     {
       id: 2,
       title: "July 2021",
       card_Title: "Unicorn Vision",
-      card_Subtitle: "Python and Tkinter Devloper",
-      card_DetailedText: `Men of the British 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nesciunt doloribus. Laudantium sapiente maiores nobis cupiditate eum! Est accusantium labore, vitae debitis ipsa ducimus laudantium illo atque pariatur perferendis dicta!
-   nesciunt doloribus. Laudantium sapiente maiores nobis cupiditate eum! Est accusantium labore, vitae debitis ipsa ducimus laudantium illo atque pariatur perferendis dicta!
-        Expeditionary Force (BEF) wade out to..`,
+      card_Subtitle: "Python and Tkinter Developer.",
+      card_DetailedText: `Created front-end of application using Python's Tkinter from scratch for a car dashboard application,
+      implemented authentication and authorization.
+      implemented multithreading to run background process like capturing users video using open-cv and uploading it to AWS S3.
+      `,
       duration: "July 2021 - October 2021",
     },
   ];

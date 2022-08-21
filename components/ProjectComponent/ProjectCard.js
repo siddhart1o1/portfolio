@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 import Image from "next/image";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function ProjectCard(props) {
   return (
@@ -9,7 +10,7 @@ export default function ProjectCard(props) {
       <div className={styles.Container}>
         <div className={styles.Image}>
           <h1 className={styles.Title_phone}>{props.data.name}</h1>
-          <img src={props.data.image} className={styles.RealImage} />
+          <LazyLoadImage src={props.data.image} className={styles.RealImage} alt="project image" />
         </div>
         <div className={styles.Desc}>
           <div className={styles.titleContainer}>

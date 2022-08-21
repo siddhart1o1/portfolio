@@ -12,12 +12,10 @@ export default function AboutComponent() {
             my B.Tech from shri vaishnav vidyapeeth vishwavidyalaya.
           </p>
           <p>
-            Well-organised person, problem solver, independent employee with
-            high attention to detail. Fan of MMA, outdoor activities, TV series
-            and English literature. A family person .
+            Well-organised person, problem solver, and a Student. I like to learn new technologies and create new applications.
           </p>
           <p>
-            Interested in the entire frontend spectrum and working on ambitious
+            Interested in the AI and ML and working on ambitious
             projects with positive people.
           </p>
         </div>

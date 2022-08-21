@@ -63,6 +63,7 @@
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease;
+
 }
 
 .Project_image {
@@ -70,7 +71,17 @@
     rgba(14, 30, 37, 0.32) 12px 2px 16px 0px;
   transition: all 0.3s ease-in-out;
   border: #ffffff solid 2px;
+  width: 100%;
+  height: 100%;
+  border: solid 2px #2e2e2e;
 }
+
+
+.projectDesctiption{
+  text-align: center;
+  width:30ch
+}
+
 
 .Project_1_Content {
   width: 100%;
@@ -97,6 +108,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:1em;
 }
 
 /* .Project1:hover {
@@ -135,6 +147,7 @@
 
 .Project5 {
   width: 100%;
+  height: 100%;
   overflow: hidden;
   position: relative;
   transition: all 0.5s ease;

@@ -116,23 +116,29 @@ export default function TopProject(props) {
 
             <motion.div ref={ref1} animate={animation1} className={styles.Row1}>
               <div className={styles.Project1}>
-                <img src="Test.png" className={styles.Project_image} />
+                <img src="social.png" className={styles.Project_image} />
                 <div className={styles.Project_1_Content}>
                   <div className={styles.content}>
-                    <h1 className={styles.content_Heading}>CRF</h1>
+                    <h1 className={styles.content_Heading}>ZAMP</h1>
                     <div className={styles.content_para}>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Numquam deserunt culpa ducimus nostrum. Aperiam,
-                        doloribus earum placeat sint perspiciatis officiis sequi
-                        nam autem porro quae dolore maxime debitis natus
-                        facilis?
+                      <p className={styles.projectDesctiption}>
+                        A social media platform to create friends and share
+                        posts with them
                       </p>
                     </div>
                     <div>
-                      <button className={styles.content_buttons}>VISIT</button>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/siddhart1o1/social_media"
+                      >
+                        <button className={styles.content_buttons}>
+                          VISIT
+                        </button>
+                      </a>
+
                       <button className={styles.content_buttons}>
-                        READ MORE
+                        <Link href="/projects">READ MORE</Link>
                       </button>
                     </div>
                   </div>
@@ -140,23 +146,28 @@ export default function TopProject(props) {
               </div>
 
               <div className={styles.Project1}>
-                <img src="Test.png" className={styles.Project_image} />
+                <img src="ecommerce.png" className={styles.Project_image} />
                 <div className={styles.Project_1_Content}>
                   <div className={styles.content}>
-                    <h1 className={styles.content_Heading}>CRF</h1>
+                    <h1 className={styles.content_Heading}>FASHONISTA</h1>
                     <div className={styles.content_para}>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Numquam deserunt culpa ducimus nostrum. Aperiam,
-                        doloribus earum placeat sint perspiciatis officiis sequi
-                        nam autem porro quae dolore maxime debitis natus
-                        facilis?
+                      <p className={styles.projectDesctiption}>
+                        Ecommerce store to buy clothes and accessories.
                       </p>
                     </div>
                     <div>
-                      <button className={styles.content_buttons}>VISIT</button>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/siddhart1o1/social_media"
+                      >
+                        <button className={styles.content_buttons}>
+                          VISIT
+                        </button>
+                      </a>
+
                       <button className={styles.content_buttons}>
-                        READ MORE
+                        <Link href="/projects">READ MORE</Link>
                       </button>
                     </div>
                   </div>
@@ -171,44 +182,57 @@ export default function TopProject(props) {
                 className={styles.Row2_1st}
               >
                 <div className={styles.Project3}>
-                  <img src="Test.png" className={styles.Project_image} />
+                  <img src="portfolio.png" className={styles.Project_image} />
                   <div className={styles.Project_1_Content}>
                     <div className={styles.content}>
-                      <h1 className={styles.content_Heading}>CRF</h1>
+                      <h1 className={styles.content_Heading}>Portfolio</h1>
                       <div className={styles.content_para}>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                        <p className={styles.projectDesctiption}>
+                          My portfolio website created using Next.js for
+                          Front-end and express for Back-end
                         </p>
                       </div>
                       <div>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://github.com/siddhart1o1/portfolio"
+                        >
+                          <button className={styles.content_buttons}>
+                            VISIT
+                          </button>
+                        </a>
+
                         <button className={styles.content_buttons}>
-                          VISIT
-                        </button>
-                        <button className={styles.content_buttons}>
-                          READ MORE
+                          <Link href="/projects">READ MORE</Link>
                         </button>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className={styles.Project3}>
-                  <img src="Test.png" className={styles.Project_image} />
+                  <img src="chat-room.png" className={styles.Project_image} />
                   <div className={styles.Project_1_Content}>
                     <div className={styles.content}>
-                      <h1 className={styles.content_Heading}>CRF</h1>
+                      <h1 className={styles.content_Heading}>Chat-Room</h1>
                       <div className={styles.content_para}>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit.
+                        <p className={styles.projectDesctiption}>
+                          Chat applicaiton that can share your location
                         </p>
                       </div>
                       <div>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://github.com/siddhart1o1/Chat-Room"
+                        >
+                          <button className={styles.content_buttons}>
+                            VISIT
+                          </button>
+                        </a>
+
                         <button className={styles.content_buttons}>
-                          VISIT
-                        </button>
-                        <button className={styles.content_buttons}>
-                          READ MORE
+                          <Link href="/projects">READ MORE</Link>
                         </button>
                       </div>
                     </div>
@@ -227,20 +251,26 @@ export default function TopProject(props) {
                     <div className={styles.content}>
                       <h1 className={styles.content_Heading}>CRF</h1>
                       <div className={styles.content_para}>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Numquam deserunt culpa ducimus nostrum. Aperiam,
-                          doloribus earum placeat sint perspiciatis officiis
-                          sequi nam autem porro quae dolore maxime debitis natus
-                          facilis?
+                        <p className={styles.projectDesctiption}>
+                          Platform for crypto traders to learn where to invest
+                          and join free to play contest to improve there trading
+                          skills and much more. (internship project worked on
+                          backend)
                         </p>
                       </div>
                       <div>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="http://cryptoresearchfund.com/"
+                        >
+                          <button className={styles.content_buttons}>
+                            VISIT
+                          </button>
+                        </a>
+
                         <button className={styles.content_buttons}>
-                          VISIT
-                        </button>
-                        <button className={styles.content_buttons}>
-                          READ MORE
+                          <Link href="/projects">READ MORE</Link>
                         </button>
                       </div>
                     </div>
