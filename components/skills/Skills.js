@@ -8,8 +8,6 @@ import TopTechGraph from "./TopTech";
 export default function Skills() {
   return (
     <div className={styles.TOP_container}>
-
-
       <div className={styles.TOP}>
         <div className={styles.container}>
           <div className={styles.heading}>
@@ -18,11 +16,11 @@ export default function Skills() {
           </div>
           <div className={styles.TopSection}>
             <p className={styles.description}>
-              I Am A full Stack Devloper and a compitive Programer and I have
-              worked on technologies like React, Django, Node, Next.js and
-              many more. I have also worked on Artifitcal Inteligence and
-              Machine Learning and cloud technologies like AWS and Also worked
-              on serverless Arhictectur using AWS lambda.
+              I Am A Full Stack Developer and a competitive Programmer and I
+              have worked on technologies like React, Django, Node, Next.js and
+              many more. I have also worked on Artificial Intelligence and
+              Machine Learning and cloud technologies like AWS Also worked on
+              serverless Architecture using AWS lambda.
             </p>
             <div className={styles.SkillGraph}>
               <MySkillBar></MySkillBar>
