@@ -1,12 +1,12 @@
 import styles from "./styles/AboutButton.module.css";
-
+import Link from "next/link";
 
 function Button() {
   return (
     <div className={styles.buttonDIV}>
-      <a href="" className={styles.bn62}>
-        Know More about Me!
-      </a>
+      <span className={styles.bn62}>
+        <Link href="/about">Know More about Me!</Link>
+      </span>
     </div>
   );
 }

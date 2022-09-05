@@ -17,22 +17,22 @@ export default function MySkillBar() {
 
       <div className={styles.container}>
         <p className={styles.Text}>Back End</p>
-        <div className={inView ? styles.BackEnd: styles.ALL}></div>
+        <div className={inView ? styles.BackEnd : styles.ALL}></div>
       </div>
 
       <div className={styles.container}>
         <p className={styles.Text}>AI/ML</p>
-        <div className={ inView ? styles.AI : styles.ALL}></div>
+        <div className={inView ? styles.AI : styles.ALL}></div>
       </div>
 
       <div className={styles.container}>
-        <p className={styles.Text}>Coding</p>
-        <div className={ inView ? styles.GeneralCodeing : styles.ALL}></div>
+        <p className={styles.Text}>Mobile Development</p>
+        <div className={inView ? styles.GeneralCodeing : styles.ALL}></div>
       </div>
 
       <div className={styles.container}>
         <p className={styles.Text}>Cloud</p>
-        <div className={ inView ? styles.Cloud : styles.ALL}></div>
+        <div className={inView ? styles.Cloud : styles.ALL}></div>
       </div>
     </motion.div>
   );

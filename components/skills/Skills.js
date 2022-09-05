@@ -19,11 +19,10 @@ export default function Skills() {
           <div className={styles.TopSection}>
             <p className={styles.description}>
               I Am A full Stack Devloper and a compitive Programer and I have
-              worked on web technologies like React, Django, Node, Next.js and
+              worked on technologies like React, Django, Node, Next.js and
               many more. I have also worked on Artifitcal Inteligence and
               Machine Learning and cloud technologies like AWS and Also worked
-              on serverless Arhictectur using AWS lambda contact me to know more
-              about what I can do.
+              on serverless Arhictectur using AWS lambda.
             </p>
             <div className={styles.SkillGraph}>
               <MySkillBar></MySkillBar>

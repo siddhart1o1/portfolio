@@ -39,7 +39,7 @@
   animation-name: FrontEnd;
   animation-duration: 2s;
   transition:all ease-in 2s;
-  width: 70%;
+  width: 80%;
 }
 
 .BackEnd {
@@ -59,7 +59,7 @@
   border-radius: 0.3em;
   animation-name: AI;
   transition:all ease-in 2s;
-      width: 50%;
+      width: 60%;
 }
 
 .GeneralCodeing {
@@ -69,16 +69,15 @@
   border-radius: 0.3em;
   animation-name: GeneralCodeing;
   transition:all ease-in 2s;
-  width: 80%;
+  width: 65%;
 }
 .Cloud {
   background: linear-gradient(-120deg, #f50581 0%, #f81337 100%);
-
   height: 2.2em;
   border-radius: 0.3em;
   animation-name: Cloud;
   transition:all ease-in 2s;
-  width: 70%;
+  width: 75%;
 }
 
 
