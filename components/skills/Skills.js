@@ -18,9 +18,8 @@ export default function Skills() {
             <p className={styles.description}>
               I Am A Full Stack Developer and a competitive Programmer and I
               have worked on technologies like React, Django, Node, Next.js and
-              many more. I have also worked on Artificial Intelligence and
-              Machine Learning and cloud technologies like AWS Also worked on
-              serverless Architecture using AWS lambda.
+              many more. I have also worked on Machine Learning, Deep Learning
+              and AWS.
             </p>
             <div className={styles.SkillGraph}>
               <MySkillBar></MySkillBar>
